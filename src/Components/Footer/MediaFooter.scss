@@ -1,0 +1,43 @@
+@media(max-width: 600px)  {
+  .footer{
+    padding: 0;
+    flex-direction: column;
+
+    .logo{
+      width: 90%;
+      margin:auto;
+      margin-top: 40px;
+      .social{
+        display: none;
+      }
+    }
+
+    .Contact{
+      width: 90%;
+      margin: auto;
+    }
+
+    .send{
+      width: 90%;
+      margin:auto;
+    }
+
+    .hr{
+      width: 90%;
+      margin: auto;
+    }
+
+    .copyright{
+      width: 90%;
+      margin: auto;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+
+
+
+
+  }
+}

@@ -1,0 +1,59 @@
+.signature-salon{
+  width: 100%;
+  height: 400px;
+  background-color: #262626;
+  display: flex;
+  //background-image: url("./Снимок экрана 2023-08-25 202040.png") ;
+  flex-direction: column;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  h1{color: white ;
+    font-size: 40px;}
+
+  p{
+    color: lightgrey;
+    width: 30%  ;
+    text-align: center;
+  }
+  .download{
+    width: 25%;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    img{
+      width: 40%;
+    }
+  }
+}
+
+@media(max-width: 600px) {
+  .signature-salon{
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+
+    h1{font-size: 35px;
+      margin-top: 40px;
+      text-align: center;}
+
+    p{width: 100%;}
+
+    .download{
+      width: 100%;
+      margin-bottom: 40px;
+      margin-top: 10px;
+      img{
+        width: 50%;
+      }
+    }
+  }
+}
+
+
+

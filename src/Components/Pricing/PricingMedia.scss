@@ -1,0 +1,20 @@
+@media(max-width: 600px)  {
+  .pricing{
+    width: 100%;
+    h1{
+      width: 95%;
+    }
+    .card-group{
+      width: 100%;
+      padding: 0;
+
+      .Switch{
+        margin-top: 40px;
+      }
+      .card{
+        width: 90%;
+
+      }
+    }
+  }
+}

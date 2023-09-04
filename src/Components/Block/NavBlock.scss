@@ -1,0 +1,61 @@
+@media(screen and max-width: 600px){
+  .block{
+      width: 100%;
+      height: 100vh;
+      flex-direction: column;
+      background-size: 500px 300px;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      border-bottom: 10px solid #E75A5A;
+      .users{
+        display: none;
+      }
+      .star{
+        display: none;
+      }
+      .salon{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1px !important ;
+        button{
+          transform: translateY(-100px);
+          width: 180px;
+          height: 45px;
+          .circle{
+            display: none;
+          }
+
+        }
+
+        h1{
+          transform: translateY(-100px);
+          width: 95%;
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+    }
+
+  .logos{
+    width: 90%;
+    margin: auto;
+    overflow-x: scroll;
+    height: 120px;
+    gap: 20px;
+    padding: 0;
+    margin-bottom: 70px;
+  }
+
+  .benefis{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    flex-direction: column;
+    gap: 30px;
+    .l-text{width: 100%;}
+    .r-text{width: 100%;}
+  }
+
+
+}

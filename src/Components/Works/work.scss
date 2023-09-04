@@ -1,0 +1,60 @@
+.work-block{
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0;
+
+  p{
+    color: #E75A5A;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  h1{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .work-cards{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .card{
+      width: 370px;
+      height: 240px;
+      display: flex;
+      text-align: center;
+      justify-content:center;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+
+      .circle{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background-color: #E75A5A;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: white;
+      }
+      h4{
+        font-size: 21px;
+      }
+
+      p{
+        color: grey;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+    }
+  }
+}

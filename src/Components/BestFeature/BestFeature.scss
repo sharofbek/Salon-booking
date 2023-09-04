@@ -1,0 +1,88 @@
+.best{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px ;
+
+  .text{
+    width: 50%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    gap: 25px;
+    p{
+      color: #E75A5A;
+      font-size: 17px;
+      font-weight: 600;
+      text-align: left;
+    }
+    h1{
+      width: 80%;
+    }
+    span{
+      width: 80%;
+      color: #5e5e5e;
+    }
+
+    .check{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 6px;
+
+      img{
+        width: 40px;
+
+      }
+    }
+
+    button{
+      width: 220px;
+      height: 50px;
+      border-radius: 24px;
+      color: white;
+      font-size: 18px;
+      border: 1px solid #E75A5A;
+      background-color: #E75A5A;
+      margin-top: 20px;
+    }
+
+  }
+
+
+  .photo{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+
+
+    .bg{
+      width: 100%;
+      height: 100%;
+      background-image: url("./img/phone-location_auto_x2.jpg");
+      background-position: bottom;
+      background-size: 43%;
+      background-repeat: no-repeat;
+      position: static;
+      z-index: 1;
+    }
+    .cube{
+      width: 380px;
+      height: 353px;
+      position: absolute;
+      border-radius: 20px;
+      background-color: #E75A5A;
+      z-index: 0;
+      background: url("./img/back.png");
+      background-size: 20%;
+      background-repeat: repeat;
+
+    }
+  }
+}

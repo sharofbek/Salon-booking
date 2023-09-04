@@ -1,0 +1,21 @@
+@media(max-width:600px) {
+  .work-block{
+    height: auto !important;
+    justify-content: space-around !important;
+
+    h1{
+      width: 80%;
+      margin-bottom: 0;
+    }
+
+    .work-cards{
+      width: 100%;
+      flex-direction: column;
+      margin: 30px 0;
+      .card{
+        width: 90%;
+      }
+    }
+
+  }
+}

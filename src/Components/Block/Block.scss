@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=IBM+Plex+Mono:ital,wght@0,100;1,300&family=Inter&display=swap');
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+.block{
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: self-start;
+  background: url(./iphones.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-bottom: 15px solid #E75A5A;
+  .users{
+    margin-left: 20px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p{
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.55);
+    }
+  }
+
+  .salon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    button{
+      display: flex;
+      justify-content: center;
+      border:1px solid #eeeeee;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+      position: relative;
+      .circle{
+        position: absolute;
+        transition: .7s;
+        left: 2px;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(231, 90, 90, 0.4);
+        border-radius: 50%;
+      }
+      .active{
+        left: 165px;
+        background-color: #E75A5A;
+      }
+      width: 200px;
+      height: 35px;
+      border-radius: 20px;
+      background-color: #fff;
+
+    }
+
+    h1{
+      font-size: 50px;
+      width: 60%;
+      color: rgba(0, 0, 0, 0.86);
+      text-align: center;
+      b{
+        color: #E75A5A;
+        border-bottom:5px solid #E75A5A ;
+      }
+    }
+
+  }
+
+
+  .star{
+    margin-top: 50px;
+    img{
+      width: 120px;
+      height: 120px;
+    }
+  }
+}
+
+.logos{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 60px;
+  align-items: center;
+  margin-bottom:50px;
+  h1{
+    color: rgba(127, 125, 125, 0.63);
+  }
+}
+
+.benefis{
+  margin: auto;
+  width: 85%;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .l-text{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    p{
+      color: #E75A5A;
+      font-weight: 600;
+    }
+  }
+  .r-text {
+    width: 45%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    p{
+      font-size: 17px;
+      line-height: 24px;
+      color: grey;
+      border-left: 4px solid #E75A5A;
+    }
+  }
+}

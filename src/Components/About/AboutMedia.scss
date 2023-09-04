@@ -1,0 +1,42 @@
+@media (max-width:600px){
+  .about{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px 0;
+
+    .Foto{
+      width: 90%;
+      img{
+        width: 100%;
+      }
+    }
+
+    .about-text{
+      width: 90% ;
+      margin: auto;
+      height: auto;
+      padding-left: 10px;
+
+      p{
+        margin-top: 20px;}
+    }
+    h1{width: 100% !important;}
+
+    .rating{
+      width: 100% !important;
+      .rate{
+        gap: 0 !important;
+      }
+    }
+
+    .get-app{
+      margin: 15px 0;
+      width: 100% !important;
+      img{
+        width:47% !important;
+      }
+    }
+
+  }
+}
